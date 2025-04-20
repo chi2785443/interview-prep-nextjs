@@ -31,15 +31,7 @@ import { getFirestore } from "firebase/firestore";
 //   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 // };
 
-const firebaseConfig = {
-  apiKey: "AIzaSyBj44wEsg_WheayDYAUH3sdK44ZpcH-Uqk",
-  authDomain: "interview-prep-61359.firebaseapp.com",
-  projectId: "interview-prep-61359",
-  storageBucket: "interview-prep-61359.firebasestorage.app",
-  messagingSenderId: "971166887255",
-  appId: "1:971166887255:web:1cccadc2e9a074fe876212",
-  measurementId: "G-RPRV6HERWM",
-};
+
 
 // Initialize Firebase
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
